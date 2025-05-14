@@ -1,0 +1,14 @@
+.container {
+  background: rgba(30, 60, 114, 0.85);
+  max-width: 600px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 0 24px rgba(42, 82, 152, 0.8);
+  padding: 2.5rem 3rem;
+  backdrop-filter: blur(8px);
+}
+@media (max-width: 480px) {
+  .container {
+    padding: 1.5rem 2rem;
+  }
+}
